@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -9,5 +11,36 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #444;
   position: relative;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+nav a, nav i {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #039dff;
+}
+
+nav .fa-bars {
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+  color: #fff;
+}
+
+nav .navbar-brand:hover {
+  color: #039dff;
+}
+
+nav .active {
+  color: #039dff;
 }
 /*# sourceMappingURL=styles.css.map */
