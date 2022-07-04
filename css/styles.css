@@ -13,6 +13,14 @@ body {
   position: relative;
 }
 
+.blue-text {
+  color: #039dff;
+}
+
+.white-text {
+  color: #fff;
+}
+
 nav {
   text-transform: uppercase;
 }
@@ -20,6 +28,9 @@ nav {
 nav a,
 nav i {
   color: #fff;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 nav a:hover {
@@ -80,5 +91,13 @@ header .hero-text {
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: 5;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .hero-img {
+    background-image: url("../img/gamebig.jpg");
+  }
 }
 /*# sourceMappingURL=styles.css.map */
