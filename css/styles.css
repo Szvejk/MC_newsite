@@ -13,12 +13,30 @@ body {
   position: relative;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 100px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: #039dff;
+}
+
 .blue-text {
   color: #039dff;
 }
 
 .white-text {
   color: #fff;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
 }
 
 nav {
@@ -113,6 +131,32 @@ header .fa-chevron-down {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   color: #fff;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
+.container {
+  height: 200px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.col-sm-6-col-md-4 {
+  padding-bottom: 30px;
+  text-align: center;
+  display: inline;
 }
 
 @media (max-width: 375px) {
