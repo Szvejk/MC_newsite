@@ -97,7 +97,7 @@ header .hero-text {
 
 @media (min-width: 1200px) {
   .hero-img {
-    background-image: url("../img/gamebig.jpg");
+    background-image: url("./img/play.jpg");
   }
 }
 /*# sourceMappingURL=styles.css.map */

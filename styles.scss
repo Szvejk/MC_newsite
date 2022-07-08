@@ -80,7 +80,11 @@ header {
 	}
 }
 @media (min-width: 1200px) {
-	.hero-img {
-		background-image: url('../img/gamebig.jpg');
+	header {
+.hero-img {
+		background-image: url('./img/play.jpg');
+	
+	}
+
 	}
 }
