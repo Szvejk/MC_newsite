@@ -8,6 +8,11 @@
 	padding: 0;
 }
 
+html {
+	scroll-padding-top: 82px;
+}
+
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #444;
@@ -145,6 +150,16 @@ font-size: 14px;
 	display: inline;
 }
 
+.aboutus-hover {
+	transition: color .4s;
+}
+.aboutus-hover:hover {
+	color: $main-color;
+}
+
+
+
+
 @media (max-width: 375px) {
 	header {
 		h1 {
@@ -165,6 +180,11 @@ font-size: 14px;
 		p {
 			font-size: 20px;
 		}
+	}
+}
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 72px;
 	}
 }
 
