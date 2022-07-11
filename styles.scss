@@ -12,7 +12,6 @@ html {
 	scroll-padding-top: 82px;
 }
 
-
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #444;
@@ -37,8 +36,8 @@ h2 {
 	color: $white;
 }
 .shadow-bg {
-	background-color: rgba(0, 0, 0, .8);
-	transition: background-color .6s;
+	background-color: rgba(0, 0, 0, 0.8);
+	transition: background-color 0.6s;
 }
 
 nav {
@@ -75,9 +74,9 @@ header {
 		font-size: 30px;
 	}
 
-p {
-	font-size: 14px;
-}
+	p {
+		font-size: 14px;
+	}
 
 	.hero-img {
 		position: relative;
@@ -104,7 +103,6 @@ p {
 		z-index: 5;
 		padding: 20px;
 		text-align: center;
-	
 	}
 
 	.btn-outline-light {
@@ -120,23 +118,19 @@ p {
 	}
 }
 
-.aboutus{
-i {
-	margin-top: 20px;
-	font-size: 30px;
-}
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
 
-.aboutus-card-title {
-	font-size: 18px;
-	text-transform: uppercase;
-}
-.aboutus-card-text {
-font-size: 14px;
-
-
-
-}
-
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.aboutus-card-text {
+		font-size: 14px;
+	}
 }
 .container {
 	height: 200px;
@@ -144,14 +138,14 @@ font-size: 14px;
 	padding-top: 60px;
 }
 
-.col-sm-6-col-md-4{
-	padding-bottom:30px;
+.col-sm-6-col-md-4 {
+	padding-bottom: 30px;
 	text-align: center;
 	display: inline;
 }
 
 .aboutus-hover {
-	transition: color .4s;
+	transition: color 0.4s;
 }
 .aboutus-hover:hover {
 	color: $main-color;
@@ -169,24 +163,35 @@ font-size: 14px;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, 0.8);
 	top: 0;
 	z-index: -5;
 }
 
-
-
 .aboutus-hero-item {
 	margin: 15px 0;
-
-
 
 	.aboutus-hero-title {
 		font-size: 20px;
 	}
 }
 
-
+.portfolio {
+	.carousel-item {
+		position: relative;
+		height: 500px;
+	}
+	.carousel-caption {
+		position: absolute;
+		background-color: rgba(0, 0, 0, 0.8);
+		left: 0;
+		right: 0;
+		padding: 40px 0;
+	}
+	.carousel-indicators {
+		padding-bottom: 20px;
+	}
+}
 
 @media (max-width: 375px) {
 	header {
@@ -198,7 +203,6 @@ font-size: 14px;
 		}
 	}
 }
-
 
 @media (min-width: 760px) {
 	header {
@@ -217,9 +221,5 @@ font-size: 14px;
 
 	.aboutus-hero {
 		background-image: url('../img/technology-2818664_640.jpg');
-		
 	}
 }
-
-
-

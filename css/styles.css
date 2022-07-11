@@ -39,8 +39,8 @@ h2 {
 
 .shadow-bg {
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-transition: background-color .6s;
-  transition: background-color .6s;
+  -webkit-transition: background-color 0.6s;
+  transition: background-color 0.6s;
 }
 
 nav {
@@ -164,8 +164,8 @@ header .fa-chevron-down {
 }
 
 .aboutus-hover {
-  -webkit-transition: color .4s;
-  transition: color .4s;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
 }
 
 .aboutus-hover:hover {
@@ -196,6 +196,23 @@ header .fa-chevron-down {
 
 .aboutus-hero-item .aboutus-hero-title {
   font-size: 20px;
+}
+
+.portfolio .carousel-item {
+  position: relative;
+  height: 500px;
+}
+
+.portfolio .carousel-caption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+}
+
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
 }
 
 @media (max-width: 375px) {
