@@ -11,10 +11,27 @@ html {
   scroll-padding-top: 82px;
 }
 
+.nav-link {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+  margin: 10px;
+}
+
+.navbar-brand {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #444;
+  background-color: #ebecf2;
   position: relative;
+}
+
+.price-box {
+  margin: 20 px;
 }
 
 h2 {
@@ -56,7 +73,7 @@ nav i {
   font-size: 20px;
 }
 
-nav a:hover {
+nav .nav-link:hover {
   color: #039dff;
 }
 
@@ -233,9 +250,9 @@ header .fa-chevron-down {
   }
 }
 
-@media (max-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
+@media (min-width: 992px) {
+  nav {
+    height: 82px;
   }
   .aboutus-hero {
     background-image: url("../img/technology-2818664_640.jpg");

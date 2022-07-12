@@ -25,9 +25,9 @@
 		/>
 	</head>
 
-        <body data-bs-spy="scroll" data-bs-target="#navbar">
+        <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
 
-            <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100">
+            <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
                 <div class="container">
                   <a class="navbar-brand" href="#"><i class="fa-solid fa-headset"></i> <span class="white-text"> Pro </span> <span class="blue-text">Gamers</span></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,19 +35,19 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-          <a href="nav-link active" href="#home">Home</a>
-          <a href="nav-link" href="#aboutus">O nas</a>
-          <a href="nav-link" href="#portfolio">Portfolio</a>
-          <a href="nav-link" href="#prices">Ceny</a>
-          <a href="nav-link" href="#team">Zespół</a>
-          <a href="nav-link" href="#achievements">Osiągnięcia</a>
-          <a href="nav-link" href="#contact">kontakt</a>
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#aboutus">O nas</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#prices">Ceny</a>
+          <a class="nav-link" href="#team">Zespół</a>
+          <a class="nav-link" href="#achievements">Osiągnięcia</a>
+          <a class="nav-link" href="#contact">kontakt</a>
 
                     </div>
                   </div>
                 </div>
               </nav>
-<header>
+<header id="home">
 	<div class="hero-img">  
 	
 	<div class="hero-shadow"></div>
@@ -138,10 +138,10 @@
 
 
 
-<section id="portfolio" class="portfolio bg-light py-5">
+<section id="portfolio" class="portfolio  py-5">
 	<h2>Portfolio</h2>
 	<div class="underline"></div>
-<div class="container">
+<div class="container pb-4">
 <!-- PORTFOLIO NA MOBILE -->
 	<div class="card-group d-lg-none">
 		<div class="card me-sm-2">
@@ -214,9 +214,71 @@
 </div>
 </section>
 
+<section id="prices" class="prices py-5 bg-light"></section>
+<h2>CENY</h2>
+	<div class="underline"></div>
+
+<div class="container">
+<div class="price-wrap row text-center justify-content-center">
+	<div class="col-md-6 col-xl-4">
+		<div class="price-box">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2> Mobile </h2>
+			<hr>
+			<p><span>Urządzenia:</span>  ..</p>
+			<p><span>Długość gry:</span> Krótka</p>
+			<p><span>Grafika:</span> Średnia</p>
+			<p><span>Online</span> Brak</p>
+			<p class="price-tag"> 499zł</p>
+			<button class="btn btn-secondary"> Zamawiam
+			</button>
+			<br>
+			<br>
+		</div>
+	</div>
+	
+	<div class="col-md-6 col-xl-4">
+<br> <br> <br> <br> <br> <br>
+
+		<div class="price-box">
+			<h2> Mobile & PC</h2>
+			<hr>
+			<p><span>Urządzenia</span>..</p>
+			<p><span>Długość gry:</span> Średnia</p>
+			<p><span>Grafika:</span>Ładna</p>
+			<p><span>Online</span>Tak</p>
+			<p class="price-tag">1499zł</p>
+			<button class="btn btn-primary"> Zamawiam
+			</button>
+		</div>
+	</div>
+	<div class="col-md-6 col-xl-4">
+		<br> <br> <br> <br> <br> <br> 
+		<div class="price-box">
+			<h3>Full Pack</h3>
+			<hr>
+			<p><span>Urządzenia</span>..</p>
+			<p><span>Długość gry</span>Długa</p>
+			<p><span>Grafika:</span>HD</p>
+			<p><span>Online</span>Tak</p>
+			<p class="price-tag">4999zł</p>
+			<button class="btn btn-secondary"> Zamawiam
+			</button>
+		</div>
+	</div>
+</div>
 
 
+<p class="price-info"> Skorzystaj z jednego z trzech głównym pakietów, lub <a href="#contact"> Skontaktuj się </a> z nami i ustal warunki indywidualnie!
+</p>
+<p class="text-muted">Pakiet <strong>FULL PACK</strong> zawiera wersję gier na urządzenia mobilne, PC oraz konsolę.</p>
 
+</div>
 
 
 <div style="height: 200vh;"></div>
