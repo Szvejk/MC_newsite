@@ -11,27 +11,10 @@ html {
   scroll-padding-top: 82px;
 }
 
-.nav-link {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  padding-bottom: 40px;
-  margin: 10px;
-}
-
-.navbar-brand {
-  text-align: center;
-  padding-bottom: 50px;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #ebecf2;
   position: relative;
-}
-
-.price-box {
-  margin: 20 px;
 }
 
 h2 {
@@ -42,7 +25,7 @@ h2 {
 .underline {
   width: 100px;
   height: 4px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   background-color: #039dff;
 }
 
@@ -87,6 +70,10 @@ nav .navbar-brand {
 
 nav .active {
   color: #039dff;
+}
+
+.price-box {
+  margin: 20 px;
 }
 
 header {
@@ -152,6 +139,19 @@ header .fa-chevron-down {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   color: #fff;
+}
+
+.nav-link {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 40px;
+  margin: 10px;
+}
+
+.navbar-brand {
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .aboutus i {
@@ -238,6 +238,10 @@ header .fa-chevron-down {
 
 .prices h2 {
   margin-top: 200px;
+}
+
+.team {
+  margin-bottom: 800px;
 }
 
 .prices .price-box {
